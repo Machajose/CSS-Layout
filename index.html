@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width" initial scale="1.0">
+        <title>Week 4 CSS layout assignment</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <!--Header-->
+        <header>
+            <h1>My CSS Layout Page</h1>
+            <p>Learning CSS layout principles. In addition, learning Flexbox and Grid the easy way.</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a hrf="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Cntact</a></li>
+            </ul>
+        </nav>
+        <!--MAIN CONTENT-->
+        <main>
+            <!--ARTICLE SECTION -->
+            <article>
+                <h2>Welcome to My Page</h2>
+                <p>This page demonstrates to use CSS Grid and Flexbox to create modern layouts. Grid is perfect for overall structure, while Flexbox is great for aligning smaller elements like navigation and cards. All this will be clearly demostrated to you comprehensively.</p>
+           
+                <h3>Latest Article</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <h4>Understanding Flexbox</h4>
+                        <p>Flexbox is a one-dimesional layout sytem that helps arrange items in a row or column.</p>
+                </div>
+                <div class="card">
+                    <h4>Combining Both</h4>
+                    <p>Flexbox and Grid are best when used together. Grid for big structure, Flexbox for small parts.</p>
+                </div>
+                <section class="card-container">
+                <h3>More Content</h3>
+                <p>When you write HTML, everything just stacks up on top of each other(block elements) or next to each other(inline elemennts)
+                    But for a real website, you want control:
+                </p>
+                <ul>
+                    <li>Position things side by side(like menu items)</li>
+                    <li>Make grids of cards</li>
+                    <li>Center stuff perfectly in the middle</li>
+
+                </ul>
+                <p>This is where Flexbox and Grid come in - they are CSS layout tools.</p>
+                 </section>
+                 <section class="card-container">
+                <h4>Flexbox</h4>
+                 <p>Think of Flexbox as a line arranger.
+                    It arranges items in a row (left to right) or a column(top to bottom).
+                    </p>
+                    <strong>How to use it:</strong>
+                    <img src="Screenshot 2025-08-20 173153.png" alt="   Flexbox">
+                    <p>Now all items inside .container will line up in one row (by default).</p>
+                    </section>
+                    <section class="card-container">
+                    <h4>Grid</h4>
+                    <p>Think of Grid as a table but more powerful.
+                        It arranges items in rows and columns at the same time</p>
+                        <strong>How to use it:</strong>
+                        <img src="Screenshot 2025-08-20 173700.png" alt=" Grid">
+                        <p>Now, all items inside .container will fall into a grid structure with 3 columns.</p>
+                       </section>
+                       </div>
+                       </article>
+                       <!-- FOOTER -->
+                        <footer>
+                            <p> 2025 My Layout Page. Built with Flexbox and Grid.</p>
+                        </footer>
+            
+        </main>
+    </body>
+</html>
